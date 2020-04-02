@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="552dcc1a-98fa-42ff-b54c-52f3ec3bff68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/MobileApplication.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MobileApplication/CredentialsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MobileApplication/CredentialsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MobileApplication/META-INF/MobileApplication.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MobileApplication/META-INF/MobileApplication.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,10 +162,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="256" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1583952704078" />
-    <state x="465" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1585204543404">
+    <state x="465" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1585806109953">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="465" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1585204543404" />
+    <state x="465" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1585806109953" />
     <state x="209" y="143" key="new project wizard" timestamp="1583926482798">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
