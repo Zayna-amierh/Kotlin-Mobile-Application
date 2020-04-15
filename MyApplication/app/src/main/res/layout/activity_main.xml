@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50px"
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="40px"
+        android:text="Salam"
+        android:textSize="37dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50px"
+        android:layout_marginTop="40px"
+        android:text="From"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="37dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/txt1"
+        app:layout_constraintTop_toBottomOf="@+id/txt1"/>
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50px"
+        android:layout_marginTop="80px"
+        android:text="TextView"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="37dp"
+        app:layout_constraintRight_toRightOf="@id/txt2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey"
+        android:id="@+id/bt1"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="40px"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintLeft_toRightOf="@id/txt1"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt2"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="40px"
+        android:text="From"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toRightOf="@id/txt2"
+        app:layout_constraintTop_toBottomOf="@+id/bt1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt3"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="80px"
+        android:text="Button"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toRightOf="@id/txt3"
+        app:layout_constraintTop_toBottomOf="@+id/bt2"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
